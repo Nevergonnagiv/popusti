@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Kalkulator cijene nakon popusta</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    </head>
+    <body>
+        <header>Kalkulator popusta</header>
+        <br /><br /><br />
+        <main>
+            <input
+                type="number"
+                name="origCijena"
+                class="cijena"
+                placeholder="Originalna cijena"><br />
+            <input
+                type="number"
+                name="popust"
+                class="sniz"
+                placeholder="Popust"><br /><br />
+            <button
+                 type="submit"
+                 onclick="calcPopust()">Izračunaj</button><br /><br />
+            <span class="konacno"></span>
+        </main>
+        <script src="script.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
